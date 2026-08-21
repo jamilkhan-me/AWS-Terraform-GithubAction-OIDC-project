@@ -23,7 +23,7 @@ variable "github_repo" {
 }
 
 variable "github_branch" {
-  description = "Branch allowed to assume the deploy role"
+  description = "Branch allowed to assume s the deploy role"
   type        = string
   default     = "main"
 }
