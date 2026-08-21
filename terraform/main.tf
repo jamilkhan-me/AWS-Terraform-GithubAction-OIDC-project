@@ -12,7 +12,7 @@ terraform {
     }
   }
 
-  # Remote state — swap in your own bucket/table before applying.
+  # Remote state — 
   backend "s3" {
     bucket         = "aws-terraform-githubaction-project-state-bucket"
     key            = "oidc-demo/terraform.tfstate"

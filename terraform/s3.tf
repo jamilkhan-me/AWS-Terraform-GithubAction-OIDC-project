@@ -11,6 +11,8 @@ resource "aws_s3_bucket" "site" {
   }
 }
 
+#Creating S3 bucket
+
 resource "aws_s3_bucket_public_access_block" "site" {
   bucket = aws_s3_bucket.site.id
 
