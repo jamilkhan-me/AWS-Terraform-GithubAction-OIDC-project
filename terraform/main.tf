@@ -12,7 +12,7 @@ terraform {
     }
   }
 
-  # Remote state — remote bucket- 
+  # Remote state — remote bucket- this is a comments
   backend "s3" {
     bucket         = "aws-terraform-githubaction-project-state-bucket"
     key            = "oidc-demo/terraform.tfstate"
