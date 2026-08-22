@@ -13,12 +13,12 @@ terraform {
   }
 
   # Remote state — remote bucket- this is a comments as
-  backend "s3" {
-    bucket         = "aws-terraform-githubaction-project-state-bucket"
-    key            = "oidc-demo/terraform.tfstate"
-    region         = "eu-north-1"
+   backend "s3" {
+    bucket       = "aws-terraform-githubaction-project-state-bucket"
+    key          = "oidc-demo/terraform.tfstate"
+    region       = "eu-north-1"
     use_lockfile = true
-    encrypt        = true
+    encrypt      = true
   }
 }
 
