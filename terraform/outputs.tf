@@ -1,4 +1,4 @@
-
+# variables
 
 output "site_bucket_name" {
   description = "S3 bucket name the workflow deploys to"
